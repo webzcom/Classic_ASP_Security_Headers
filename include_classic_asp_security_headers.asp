@@ -1,5 +1,5 @@
 'Note all the important security headers here:
-Response.AddHeader "default-src 'self' www.yourdomain.com;"
+Response.AddHeader "content-security-policy", "default-src 'self' www.yourdomain.com;"
 Response.AddHeader "Access-Control-Origin","[URL];"
 Response.AddHeader "Feature-Policy","microphone 'none';"
 Response.AddHeader "Referrer-Policy","no-referrer;"
